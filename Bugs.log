@@ -1,0 +1,195 @@
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\Source\Start.py", line 455, in parseString
+    self.Packets.parsePacket(packetID, C, CC, packet)
+  File "C:\Users\Administrator\Desktop\Source\game\SlyPackets.py", line 111, in parsePacket
+    self.client.room.checkChangeMap()
+  File "C:\Users\Administrator\Desktop\Source\Start.py", line 4005, in checkChangeMap
+    self.mapChange()
+  File "C:\Users\Administrator\Desktop\Source\Start.py", line 3737, in mapChange
+    self.closeVoting()
+  File "C:\Users\Administrator\Desktop\Source\Start.py", line 4318, in closeVoting
+    self.mapChange()
+  File "C:\Users\Administrator\Desktop\Source\Start.py", line 3890, in mapChange
+    player.sendMessage("<font color='#E56CA3'>[BD]:</font> <N>(<R>@"+self.mapCode+"</R>) não há record quebrados neste mapa.</N>")
+TypeError: cannot concatenate 'str' and 'int' objects
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\Source\Start.py", line 455, in parseString
+    self.Packets.parsePacket(packetID, C, CC, packet)
+  File "C:\Users\Administrator\Desktop\Source\game\SlyPackets.py", line 111, in parsePacket
+    self.client.room.checkChangeMap()
+  File "C:\Users\Administrator\Desktop\Source\Start.py", line 4005, in checkChangeMap
+    self.mapChange()
+  File "C:\Users\Administrator\Desktop\Source\Start.py", line 3737, in mapChange
+    self.closeVoting()
+  File "C:\Users\Administrator\Desktop\Source\Start.py", line 4318, in closeVoting
+    self.mapChange()
+  File "C:\Users\Administrator\Desktop\Source\Start.py", line 3890, in mapChange
+    player.sendMessage("<font color='#E56CA3'>[BD]:</font> <N>(<R>@"+self.mapCode+"</R>) não há record quebrados neste mapa.</N>")
+TypeError: cannot concatenate 'str' and 'int' objects
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\Source\Start.py", line 455, in parseString
+    self.Packets.parsePacket(packetID, C, CC, packet)
+  File "C:\Users\Administrator\Desktop\Source\game\SlyPackets.py", line 111, in parsePacket
+    self.client.room.checkChangeMap()
+  File "C:\Users\Administrator\Desktop\Source\Start.py", line 4005, in checkChangeMap
+    self.mapChange()
+  File "C:\Users\Administrator\Desktop\Source\Start.py", line 3737, in mapChange
+    self.closeVoting()
+  File "C:\Users\Administrator\Desktop\Source\Start.py", line 4318, in closeVoting
+    self.mapChange()
+  File "C:\Users\Administrator\Desktop\Source\Start.py", line 3890, in mapChange
+    player.sendMessage("<font color='#E56CA3'>[BD]:</font> <N>(<R>@"+self.mapCode+"</R>) não há record quebrados neste mapa.</N>")
+TypeError: cannot concatenate 'str' and 'int' objects
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\Source\Start.py", line 455, in parseString
+    self.Packets.parsePacket(packetID, C, CC, packet)
+  File "C:\Users\Administrator\Desktop\Source\game\SlyPackets.py", line 111, in parsePacket
+    self.client.room.checkChangeMap()
+  File "C:\Users\Administrator\Desktop\Source\Start.py", line 4005, in checkChangeMap
+    self.mapChange()
+  File "C:\Users\Administrator\Desktop\Source\Start.py", line 3737, in mapChange
+    self.closeVoting()
+  File "C:\Users\Administrator\Desktop\Source\Start.py", line 4318, in closeVoting
+    self.mapChange()
+  File "C:\Users\Administrator\Desktop\Source\Start.py", line 3890, in mapChange
+    player.sendMessage("<font color='#E56CA3'>[BD]:</font> <N>(<R>@"+self.mapCode+"</R>) não há record quebrados neste mapa.</N>")
+TypeError: cannot concatenate 'str' and 'int' objects
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\Source\Start.py", line 455, in parseString
+    self.Packets.parsePacket(packetID, C, CC, packet)
+  File "C:\Users\Administrator\Desktop\Source\game\SlyPackets.py", line 111, in parsePacket
+    self.client.room.checkChangeMap()
+  File "C:\Users\Administrator\Desktop\Source\Start.py", line 4005, in checkChangeMap
+    self.mapChange()
+  File "C:\Users\Administrator\Desktop\Source\Start.py", line 3737, in mapChange
+    self.closeVoting()
+  File "C:\Users\Administrator\Desktop\Source\Start.py", line 4318, in closeVoting
+    self.mapChange()
+  File "C:\Users\Administrator\Desktop\Source\Start.py", line 3890, in mapChange
+    player.sendMessage("<font color='#E56CA3'>[BD]:</font> <N>(<R>@"+self.mapCode+"</R>) não há record quebrados neste mapa.</N>")
+TypeError: cannot concatenate 'str' and 'int' objects
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\Source\Start.py", line 455, in parseString
+    self.Packets.parsePacket(packetID, C, CC, packet)
+  File "C:\Users\Administrator\Desktop\Source\game\SlyPackets.py", line 111, in parsePacket
+    self.client.room.checkChangeMap()
+  File "C:\Users\Administrator\Desktop\Source\Start.py", line 4005, in checkChangeMap
+    self.mapChange()
+  File "C:\Users\Administrator\Desktop\Source\Start.py", line 3737, in mapChange
+    self.closeVoting()
+  File "C:\Users\Administrator\Desktop\Source\Start.py", line 4318, in closeVoting
+    self.mapChange()
+  File "C:\Users\Administrator\Desktop\Source\Start.py", line 3890, in mapChange
+    player.sendMessage("<font color='#E56CA3'>[BD]:</font> <N>(<R>@"+self.mapCode+"</R>) não há record quebrados neste mapa.</N>")
+TypeError: cannot concatenate 'str' and 'int' objects
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\Source\Start.py", line 455, in parseString
+    self.Packets.parsePacket(packetID, C, CC, packet)
+  File "C:\Users\Administrator\Desktop\Source\game\SlyPackets.py", line 111, in parsePacket
+    self.client.room.checkChangeMap()
+  File "C:\Users\Administrator\Desktop\Source\Start.py", line 4005, in checkChangeMap
+    self.mapChange()
+  File "C:\Users\Administrator\Desktop\Source\Start.py", line 3737, in mapChange
+    self.closeVoting()
+  File "C:\Users\Administrator\Desktop\Source\Start.py", line 4318, in closeVoting
+    self.mapChange()
+  File "C:\Users\Administrator\Desktop\Source\Start.py", line 3890, in mapChange
+    player.sendMessage("<font color='#E56CA3'>[BD]:</font> <N>(<R>@"+self.mapCode+"</R>) não há record quebrados neste mapa.</N>")
+TypeError: cannot concatenate 'str' and 'int' objects
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\Source\Start.py", line 455, in parseString
+    self.Packets.parsePacket(packetID, C, CC, packet)
+  File "C:\Users\Administrator\Desktop\Source\game\SlyPackets.py", line 111, in parsePacket
+    self.client.room.checkChangeMap()
+  File "C:\Users\Administrator\Desktop\Source\Start.py", line 4005, in checkChangeMap
+    self.mapChange()
+  File "C:\Users\Administrator\Desktop\Source\Start.py", line 3737, in mapChange
+    self.closeVoting()
+  File "C:\Users\Administrator\Desktop\Source\Start.py", line 4318, in closeVoting
+    self.mapChange()
+  File "C:\Users\Administrator\Desktop\Source\Start.py", line 3890, in mapChange
+    player.sendMessage("<font color='#E56CA3'>[BD]:</font> <N>(<R>@"+self.mapCode+"</R>) não há record quebrados neste mapa.</N>")
+TypeError: cannot concatenate 'str' and 'int' objects
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\Source\Start.py", line 455, in parseString
+    self.Packets.parsePacket(packetID, C, CC, packet)
+  File "C:\Users\Administrator\Desktop\Source\game\SlyPackets.py", line 111, in parsePacket
+    self.client.room.checkChangeMap()
+  File "C:\Users\Administrator\Desktop\Source\Start.py", line 4005, in checkChangeMap
+    self.mapChange()
+  File "C:\Users\Administrator\Desktop\Source\Start.py", line 3737, in mapChange
+    self.closeVoting()
+  File "C:\Users\Administrator\Desktop\Source\Start.py", line 4318, in closeVoting
+    self.mapChange()
+  File "C:\Users\Administrator\Desktop\Source\Start.py", line 3890, in mapChange
+    player.sendMessage("<font color='#E56CA3'>[BD]:</font> <N>(<R>@"+self.mapCode+"</R>) não há record quebrados neste mapa.</N>")
+TypeError: cannot concatenate 'str' and 'int' objects
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\Source\Start.py", line 455, in parseString
+    self.Packets.parsePacket(packetID, C, CC, packet)
+  File "C:\Users\Administrator\Desktop\Source\game\SlyPackets.py", line 111, in parsePacket
+    self.client.room.checkChangeMap()
+  File "C:\Users\Administrator\Desktop\Source\Start.py", line 4005, in checkChangeMap
+    self.mapChange()
+  File "C:\Users\Administrator\Desktop\Source\Start.py", line 3737, in mapChange
+    self.closeVoting()
+  File "C:\Users\Administrator\Desktop\Source\Start.py", line 4318, in closeVoting
+    self.mapChange()
+  File "C:\Users\Administrator\Desktop\Source\Start.py", line 3890, in mapChange
+    player.sendMessage("<font color='#E56CA3'>[BD]:</font> <N>(<R>@"+self.mapCode+"</R>) não há record quebrados neste mapa.</N>")
+TypeError: cannot concatenate 'str' and 'int' objects
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\Source\Start.py", line 455, in parseString
+    self.Packets.parsePacket(packetID, C, CC, packet)
+  File "C:\Users\Administrator\Desktop\Source\game\SlyPackets.py", line 111, in parsePacket
+    self.client.room.checkChangeMap()
+  File "C:\Users\Administrator\Desktop\Source\Start.py", line 4005, in checkChangeMap
+    self.mapChange()
+  File "C:\Users\Administrator\Desktop\Source\Start.py", line 3737, in mapChange
+    self.closeVoting()
+  File "C:\Users\Administrator\Desktop\Source\Start.py", line 4318, in closeVoting
+    self.mapChange()
+  File "C:\Users\Administrator\Desktop\Source\Start.py", line 3890, in mapChange
+    player.sendMessage("<font color='#E56CA3'>[BD]:</font> <N>(<R>@"+self.mapCode+"</R>) não há record quebrados neste mapa.</N>")
+TypeError: cannot concatenate 'str' and 'int' objects
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\Source\Start.py", line 455, in parseString
+    self.Packets.parsePacket(packetID, C, CC, packet)
+  File "C:\Users\Administrator\Desktop\Source\game\SlyPackets.py", line 111, in parsePacket
+    self.client.room.checkChangeMap()
+  File "C:\Users\Administrator\Desktop\Source\Start.py", line 4005, in checkChangeMap
+    self.mapChange()
+  File "C:\Users\Administrator\Desktop\Source\Start.py", line 3737, in mapChange
+    self.closeVoting()
+  File "C:\Users\Administrator\Desktop\Source\Start.py", line 4318, in closeVoting
+    self.mapChange()
+  File "C:\Users\Administrator\Desktop\Source\Start.py", line 3890, in mapChange
+    player.sendMessage("<font color='#E56CA3'>[BD]:</font> <N>(<R>@"+str(self.mapCode)+"</R>) não há record quebrados neste mapa.</N>")
+TypeError: cannot concatenate 'str' and 'int' objects
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\Source\Start.py", line 455, in parseString
+    self.Packets.parsePacket(packetID, C, CC, packet)
+  File "C:\Users\Administrator\Desktop\Source\game\SlyPackets.py", line 111, in parsePacket
+    self.client.room.checkChangeMap()
+  File "C:\Users\Administrator\Desktop\Source\Start.py", line 4005, in checkChangeMap
+    self.mapChange()
+  File "C:\Users\Administrator\Desktop\Source\Start.py", line 3737, in mapChange
+    self.closeVoting()
+  File "C:\Users\Administrator\Desktop\Source\Start.py", line 4318, in closeVoting
+    self.mapChange()
+  File "C:\Users\Administrator\Desktop\Source\Start.py", line 3890, in mapChange
+    player.sendMessage("<font color='#E56CA3'>[BD]:</font> <N>(<R>@"+str(self.mapCode)+"</R>) não há record quebrados neste mapa.</N>")
+TypeError: cannot concatenate 'str' and 'int' objects
+

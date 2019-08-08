@@ -1,0 +1,13 @@
+{
+  "name": "socket-api-ranking",
+  "version": "0.0.1",
+  "description": "Ranking create by VIorelMD",
+  "dependencies": {
+    "express": "^4.15.2",
+    "mysql": "^2.16.0",
+    "socket.io": "^1.7.4"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}

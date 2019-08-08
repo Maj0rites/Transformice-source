@@ -1,1 +1,7 @@
-# Transformice-source
+# ranking-nodejs-api
+
+npm install
+
+npm run
+
+Created by ViorelMD

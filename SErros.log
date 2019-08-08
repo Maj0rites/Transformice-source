@@ -1,0 +1,72 @@
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\Slyvanas\Start.py", line 454, in parseString
+    self.Packets.parsePacket(packetID, C, CC, packet)
+  File "C:\Users\Administrator\Desktop\Slyvanas\game\SlyPackets.py", line 470, in parsePacket
+    langue = Utils.getTFMLangues(self.client.langueID)
+  File "C:\Users\Administrator\Desktop\Slyvanas\utils\Utils.py", line 11, in getTFMLangues
+    return {0:"EN", 1:"FR", 2:"FR", 3:"BR", 4:"ES", 5:"CN", 6:"TR", 7:"VK", 8:"PL", 9:"HU", 10:"NL", 11:"RO", 12:"ID", 13:"DE", 14:"E2", 15:"AR", 16:"PH", 17:"LT", 18:"JP", 19:"CH", 20:"FI", 21:"CZ", 22:"SK", 23:"HR", 24:"BU", 25:"LV", 26:"HE", 27:"IT", 29:"ET", 30:"AZ", 31:"PT"}[langueID]
+NameError: global name 'langueID' is not defined
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\Slyvanas\Start.py", line 454, in parseString
+    self.Packets.parsePacket(packetID, C, CC, packet)
+  File "C:\Users\Administrator\Desktop\Slyvanas\game\SlyPackets.py", line 470, in parsePacket
+    langue = Utils.getTFMLangues(self.client.langueID)
+  File "C:\Users\Administrator\Desktop\Slyvanas\utils\Utils.py", line 11, in getTFMLangues
+    return {0:"EN", 1:"FR", 2:"FR", 3:"BR", 4:"ES", 5:"CN", 6:"TR", 7:"VK", 8:"PL", 9:"HU", 10:"NL", 11:"RO", 12:"ID", 13:"DE", 14:"E2", 15:"AR", 16:"PH", 17:"LT", 18:"JP", 19:"CH", 20:"FI", 21:"CZ", 22:"SK", 23:"HR", 24:"BU", 25:"LV", 26:"HE", 27:"IT", 29:"ET", 30:"AZ", 31:"PT"}[langueID]
+NameError: global name 'langueID' is not defined
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\Slyvanas\Start.py", line 454, in parseString
+    self.Packets.parsePacket(packetID, C, CC, packet)
+  File "C:\Users\Administrator\Desktop\Slyvanas\game\SlyPackets.py", line 470, in parsePacket
+    langue = Utils.getTFMLangues(self.client.langueID)
+  File "C:\Users\Administrator\Desktop\Slyvanas\utils\Utils.py", line 11, in getTFMLangues
+    return {0:"EN", 1:"FR", 2:"FR", 3:"BR", 4:"ES", 5:"CN", 6:"TR", 7:"VK", 8:"PL", 9:"HU", 10:"NL", 11:"RO", 12:"ID", 13:"DE", 14:"E2", 15:"AR", 16:"PH", 17:"LT", 18:"JP", 19:"CH", 20:"FI", 21:"CZ", 22:"SK", 23:"HR", 24:"BU", 25:"LV", 26:"HE", 27:"IT", 29:"ET", 30:"AZ", 31:"PT"}[langueID]
+NameError: global name 'langueID' is not defined
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\Slyvanas\Start.py", line 454, in parseString
+    self.Packets.parsePacket(packetID, C, CC, packet)
+  File "C:\Users\Administrator\Desktop\Slyvanas\game\SlyPackets.py", line 470, in parsePacket
+    langue = Utils.getTFMLangues(self.client.langueID)
+  File "C:\Users\Administrator\Desktop\Slyvanas\utils\Utils.py", line 11, in getTFMLangues
+    return {0:"EN", 1:"FR", 2:"FR", 3:"BR", 4:"ES", 5:"CN", 6:"TR", 7:"VK", 8:"PL", 9:"HU", 10:"NL", 11:"RO", 12:"ID", 13:"DE", 14:"E2", 15:"AR", 16:"PH", 17:"LT", 18:"JP", 19:"CH", 20:"FI", 21:"CZ", 22:"SK", 23:"HR", 24:"BU", 25:"LV", 26:"HE", 27:"IT", 29:"ET", 30:"AZ", 31:"PT"}[langueID]
+NameError: global name 'langueID' is not defined
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\Slyvanas\Start.py", line 454, in parseString
+    self.Packets.parsePacket(packetID, C, CC, packet)
+  File "C:\Users\Administrator\Desktop\Slyvanas\game\SlyPackets.py", line 470, in parsePacket
+    langue = Utils.getTFMLangues(self.client.langueID)
+  File "C:\Users\Administrator\Desktop\Slyvanas\utils\Utils.py", line 11, in getTFMLangues
+    return {0:"EN", 1:"FR", 2:"FR", 3:"BR", 4:"ES", 5:"CN", 6:"TR", 7:"VK", 8:"PL", 9:"HU", 10:"NL", 11:"RO", 12:"ID", 13:"DE", 14:"E2", 15:"AR", 16:"PH", 17:"LT", 18:"JP", 19:"CH", 20:"FI", 21:"CZ", 22:"SK", 23:"HR", 24:"BU", 25:"LV", 26:"HE", 27:"IT", 29:"ET", 30:"AZ", 31:"PT"}[langueID]
+NameError: global name 'langueID' is not defined
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\Slyvanas\Start.py", line 454, in parseString
+    self.Packets.parsePacket(packetID, C, CC, packet)
+  File "C:\Users\Administrator\Desktop\Slyvanas\game\SlyPackets.py", line 470, in parsePacket
+    fly = packet.readBoolean()
+  File "C:\Users\Administrator\Desktop\Slyvanas\utils\Utils.py", line 11, in getTFMLangues
+    return {0:"EN", 1:"FR", 2:"FR", 3:"BR", 4:"ES", 5:"CN", 6:"TR", 7:"VK", 8:"PL", 9:"HU", 10:"NL", 11:"RO", 12:"ID", 13:"DE", 14:"E2", 15:"AR", 16:"PH", 17:"LT", 18:"JP", 19:"CH", 20:"FI", 21:"CZ", 22:"SK", 23:"HR", 24:"BU", 25:"LV", 26:"HE", 27:"IT", 29:"ET", 30:"AZ", 31:"PT"}[langueID]
+NameError: global name 'langueID' is not defined
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\Slyvanas\Start.py", line 454, in parseString
+    self.Packets.parsePacket(packetID, C, CC, packet)
+  File "C:\Users\Administrator\Desktop\Slyvanas\game\SlyPackets.py", line 470, in parsePacket
+    fly = packet.readBoolean()
+  File "C:\Users\Administrator\Desktop\Slyvanas\utils\Utils.py", line 11, in getTFMLangues
+    return {0:"EN", 1:"FR", 2:"FR", 3:"BR", 4:"ES", 5:"CN", 6:"TR", 7:"VK", 8:"PL", 9:"HU", 10:"NL", 11:"RO", 12:"ID", 13:"DE", 14:"E2", 15:"AR", 16:"PH", 17:"LT", 18:"JP", 19:"CH", 20:"FI", 21:"CZ", 22:"SK", 23:"HR", 24:"BU", 25:"LV", 26:"HE", 27:"IT", 29:"ET", 30:"AZ", 31:"PT"}[langueID]
+NameError: global name 'langueID' is not defined
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\Slyvanas\Start.py", line 454, in parseString
+    self.Packets.parsePacket(packetID, C, CC, packet)
+  File "C:\Users\Administrator\Desktop\Slyvanas\game\SlyPackets.py", line 470, in parsePacket
+    fly = packet.readBoolean()
+  File "C:\Users\Administrator\Desktop\Slyvanas\utils\Utils.py", line 11, in getTFMLangues
+    return {0:"EN", 1:"FR", 2:"FR", 3:"BR", 4:"ES", 5:"CN", 6:"TR", 7:"VK", 8:"PL", 9:"HU", 10:"NL", 11:"RO", 12:"ID", 13:"DE", 14:"E2", 15:"AR", 16:"PH", 17:"LT", 18:"JP", 19:"CH", 20:"FI", 21:"CZ", 22:"SK", 23:"HR", 24:"BU", 25:"LV", 26:"HE", 27:"IT", 29:"ET", 30:"AZ", 31:"PT"}[langueID]
+NameError: global name 'langueID' is not defined
+
