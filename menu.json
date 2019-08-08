@@ -1,0 +1,221 @@
+{
+	"texts": {
+        "BR": {
+			"fullMenu": {
+		    	"title": "<font size='13'><J><p align='center'>Bem-vindo ao nosso Menu!</p></font>\n",
+                "main": "<p align='left'><font size='13'><N>Olá, <ROSE>%1<N>.\nNosso sistema passou por mudanças e agora está disponível de forma mais organizada.\n\nAqui você poderá comprar <V>moedas<N>, <V>firsts<N>, <V>cargos<N>, visualizar os <V>comandos<N> existentes do servidor, comprar consumíveis, participar de sorteios na roleta, baixar o <V>Standalone<N> do nosso Vampirmice e conhecer nossa equipe que traz tudo isso para você.\n\n<ROSE>No menu ao lado, escolha o que você quer fazer.\n<N><VP>Caso tenha dúvidas, entre em contato com a equipe.",
+                "inicio": "<b><a href='event:fullMenu:open'><VP>Início</a></b>",
+				"lojinha": "<b><a href='event:shop:open'><J>Lojinha</a></b>",
+				"ranking": "<b><a href='event:ranking:firsts'><J>Ranking</a></b>",
+				"equipe": "<b><a href='event:equipe:admins'><J>Equipe</a></b>",
+				"roleta": "<b><a href='event:roleta:open'><J>Roleta</a></b>",
+				"consumiveis": "<b><a href='event:consumablesShop:open'><J>Inventário</a></b>",
+				"cor": "<b><a href='event:changeColor'><J>Mudar Cor</a></b>",
+				"comandos": "<b><a href='event:help'><J>Comandos</a></b>"
+            },
+			
+            "shop": {
+				"title": "<font size='13'><J><p align='center'>Lojinha</p></font>\n",
+                "main": "<font size='13'><J><p align='left'><N>Olá, <ROSE>%1<N>. Você possui <J>%2 <N>moedas.\n<N>Para abrir uma lista de itens disponiveis para comprar basta clicar em uma das opções abaixo.\n\n<VP>O que você deseja comprar, <ROSE>%1<VP>?\n<N>»<J> <a href='event:shop:changeTab-2-1'>Desejo comprar Firsts e Coletados</a>\n<N>»<J> <a href='event:shop:changeTab-9-1'>Desejo comprar Queijos Coletados</a>\n<N>»<J> <a href='event:shop:changeTab-3-1'>Desejo comprar Bootcamps</a>\n<N>»<J> <a href='event:shop:changeTab-4-1'>Desejo comprar Saves <i>(Modo Normal)</i></a>\n<N>»<J> <a href='event:shop:changeTab-5-1'>Desejo comprar Saves <i>(Modo Difícil)</i></a>\n<N>»<J> <a href='event:shop:changeTab-6-1'>Desejo comprar Saves <i>(Modo Divino)</i></a>\n<N>»<J> <a href='event:shop:changeTab-7-1'>Desejo comprar VIP</a>\n<N>»<J> <a href='event:shop:changeTab-8-1'>Desejo comprar Fichas</a></p>",
+                "header": "<p align='left'><font size='13'><N>Olá, <ROSE>%1<N>. Você possui <J>%2 <N>moedas.\n\n<N>Abaixo uma lista dos itens que você pode comprar com suas moedas:\n",
+                "coins": "moedas",
+                "confirmBuy": "\n\n<N><p align='center'>Deseja realmente comprar o item <J>%1 <N>por <J>%2 <N>moedas?\n\n<V><b><a href='event:shop:confirmBuyItem-%3-%4'>Sim</a></b> - <R><b><a href='event:shop:changeTab-%5-%6'>Não</a></b></p>",
+                "buyErrorNoCoins": "\n\n<N><p align='center'>Você não tem moedas suficientes para comprar o item <J>%1\n\n<V><b><a href='event:shop:changeTab-%2-%3'>OK</a></b>",
+                "buySucess": "\n\n<N><p align='center'>Você comprou o item <J>%1 <N>com sucesso.\n\n<V><b><a href='event:shop:changeTab-%2-%3'>OK</a></b>",
+                "items": {
+					"firsts": {
+                        "1": "200 Firsts",
+                        "2": "400 Firsts",
+                        "3": "600 Firsts",
+                        "4": "800 Firsts",
+                        "5": "1000 Firsts"
+                    },
+					
+					"bootcamps": {
+                        "1": "200 Bootcamps",
+                        "2": "400 Bootcamps",
+                        "3": "600 Bootcamps",
+                        "4": "800 Bootcamps",
+                        "5": "1000 Bootcamps"
+                    },
+					
+                    "savesnormal": {
+						"1": "200 Saves (Modo Normal)",
+						"2": "400 Saves (Modo Normal)",
+						"3": "600 Saves (Modo Normal)",
+						"4": "800 Saves (Modo Normal)",
+						"5": "1000 Saves (Modo Normal)"
+                    },
+					
+					"savesdificil": {
+						"1": "200 Saves (Modo Difícil)",
+						"2": "400 Saves (Modo Difícil)",
+						"3": "600 Saves (Modo Difícil)",
+						"4": "800 Saves (Modo Difícil)",
+						"5": "1000 Saves (Modo Difícil)"
+                    },
+					
+					"savesdivino": {
+						"1": "200 Saves (Modo Divino)",
+						"2": "400 Saves (Modo Divino)",
+						"3": "600 Saves (Modo Divino)",
+						"4": "800 Saves (Modo Divino)",
+						"5": "1000 Saves (Modo Divino)"
+                    },
+                    
+                    "vip": {
+                        "1": "Comprar VIP - 30 dias"
+                    },
+                    
+                    "fichas": {
+                        "1": "10 Fichas",
+                        "2": "20 Fichas",
+                        "3": "30 Fichas",
+                        "4": "40 Fichas",
+                        "5": "50 Fichas"
+                    },
+					
+					"coletados": {
+                        "1": "200 Queijos Coletados",
+                        "2": "400 Queijos Coletados",
+                        "3": "600 Queijos Coletados",
+                        "4": "800 Queijos Coletados",
+                        "5": "1000 Queijos Coletados"
+                    },
+
+                }
+            },
+        
+            "roleta": {
+				"title": "<font size='13'><J><p align='center'>Gire e ganhe!</p></font>\n",
+                "main": "<font size='13'><N>Olá, <ROSE>%1<N>.\nVocê possui até o momento <VP>%2 <N>fichas.\n\n<VP><b>Como adquirir fichas?</b>\n<N>Basta comprar em nossa lojinha ao lado com suas moedas.\n\n<VP><b>Prêmios:</b>\n<N>Você pode ganhar de poucos <ROSE>queijos<N> até muitas moedas e <ROSE>VIP<N>!"
+            },
+			
+			"equipe": {
+				"title": "<font size='13'><J><p align='center'>Conheça os Desenvolvedores</p></font>\n",
+                "main": "<p align='left'><font size='13'><N>Olá, <ROSE>%1<N>. Escolha o cargo para ver seus membros.\n\n<N><a href='event:equipe:admins'>» <ROSE>Administradores</a>\n<N><a href='event:equipe:coords'>» <VI>Coordenadores</a>\n<N><a href='event:equipe:smods'>» <J>Super Moderadores</a>\n<N><a href='event:equipe:mods'>» <N>Moderadores</a>\n<N><a href='event:equipe:mapcrews'>» <N><font color='#FFCC99'>MapCrews</font></a>\n<N><a href='event:equipe:helpers'>» <N><font color='#3366FF'>Helpers</font></a>"
+            },
+			
+            "ranking": {
+				"title": "<font size='13'><J><p align='center'>Os melhores jogadores</p></font>\n",
+				"main": "<font size='13'><J><p align='left'><N>Olá, <ROSE>%1<N>.\n<N>Para ver os melhores jogadores do jogo basta clicar em uma das opções abaixo.\n\n<N>»<J> <a href='event:ranking:firsts'>Firsts</a>\n<N>»<J> <a href='event:ranking:coletados'>Queijos</a>\n<N>»<J> <a href='event:ranking:saves'>Saves</a>\n<N>»<J> <a href='event:ranking:bootcamps'>Bootcamps</a>\n<N>»<J> <a href='event:ranking:moedas'>Moedas</a></p>"
+            },
+            
+            "consumablesShop": {
+				"title": "<font size='13'><J><p align='center'>Consumíveis</p></font>\n",
+                "endBuy": "<p align='center'><a href='event:consumablesShop:endBuy'><N>Finalizar</a></p>",
+                "buyMessage": "<p align='center'>Olá, <ROSE>%1<N>. você possui <J>%2 <N>queijos e <R>%3 <N>morangos.\n\nVocê está comprando um total de <CH>%4 <N>consumíveis.\n\nSelecione o método de pagamento:</p>",
+                "cancelBuy": "<p align='center'><a href='event:consumablesShop:cancelBuy'>Cancelar</a></p>",
+                "buySucess": "<p align='center'>Você comprou <CH>%1 <N>consumíveis por %2%3 <N>%4.</p>",
+                "cheeses": "queijos",
+                "fraises": "morangos",
+                "returnToHome": "<p align='center'><a href='event:consumablesShop:backToHome'>Voltar para o início</a></p>"
+            }
+		},
+	},
+    
+    "shop": {
+        "firsts": {
+            "1": 200,
+            "2": 400,
+            "3": 600,
+            "4": 800,
+            "5": 1000
+        },
+        
+        "bootcamps": {
+            "1": 200,
+            "2": 400,
+            "3": 600,
+            "4": 800,
+            "5": 1000
+        },
+		
+		"savesnormal": {
+            "1": 200,
+            "2": 400,
+            "3": 600,
+            "4": 800,
+            "5": 1000
+        },
+		
+		"savesdificil": {
+            "1": 200,
+            "2": 400,
+            "3": 600,
+            "4": 800,
+            "5": 1000
+        },
+		
+		"savesdivino": {
+            "1": 200,
+            "2": 400,
+            "3": 600,
+            "4": 800,
+            "5": 1000
+        },
+        
+		"vip": {
+            "1": 5000,
+			"2": 0,
+			"3": 0,
+			"4": 0,
+			"5": 0
+        },
+		
+        "fichas": {
+            "1": 50,
+            "2": 100,
+            "3": 150,
+            "4": 200,
+            "5": 300
+        },
+		
+		"coletados": {
+            "1": 200,
+            "2": 400,
+            "3": 600,
+            "4": 800,
+            "5": 1000
+        }
+    },
+	
+	"consumables": {
+        "0": [0, 6, 3],
+        "1": [1, 8, 4],
+        "2": [2, 6, 3],
+        "3": [3, 6, 3],
+        "4": [4, 4, 2],
+        "5": [2262, 8, 4],
+        "6": [7, 8, 4],
+        "7": [8, 8, 4],
+        "8": [10, 4, 2],
+        "9": [11, 8, 4],
+        "10": [14, 4, 2],
+        "11": [15, 4, 2],
+        "12": [16, 6, 3],
+        "13": [20, 8, 4],
+        "14": [21, 9, 5],
+        "15": [24, 8, 4],
+        "16": [25, 8, 4],
+        "17": [26, 8, 4],
+        "18": [28, 8, 4],
+        "19": [29, 9, 9],
+        "20": [30, 9, 9],
+        "21": [31, 9, 9],
+        "22": [33, 8, 4],
+        "23": [34, 9, 9],
+        "24": [35, 8, 4],
+        "25": [2232, 9, 9],
+        "26": [2234, 9, 9],
+		"27": [2239, 10, 5],
+        "28": [2240, 9, 9],
+        "29": [2241, 9, 9],
+		"30": [2246, 9, 9],
+		"31": [2247, 9, 9],
+		"32": [2250, 8, 4],
+		"33": [2252, 10, 5],
+		"34": [2255, 8, 4],
+		"35": [2259, 8, 4]
+    }
+}
